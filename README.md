@@ -16,7 +16,9 @@
 - 支持市面上大多数遥控协议，红外控制基于[IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266)，更新最新版本
 - 本固件支持多种esp8266红外控制器，例如：中国移动x12 全橙空调伴侣 涂鸦万能遥控器 自制esp8266红外控制器 等等，其中 中国移动x12 和 全橙空调伴侣 支持电量统计，并支持功率反馈电视真实开关情况，确保万无一失
 - 支持mqtt，预留接收和发射红外码的主题，方便使用第三方平台（homeassistant homebridge node-red）控制
-
+## 电视反馈
+- 支持功率或者ping ip，两者二选一
+- 红外接收红外码作为第一反馈，功率/ping作为补充反馈
 
 ## WiFi配网
 
