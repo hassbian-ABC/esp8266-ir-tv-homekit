@@ -5,19 +5,17 @@
 
 ![HomeKit](https://github.com/hassbian-ABC/esp8266-ir-tv-homekit/blob/main/image/homekit-tv.png)
 
-主芯片为ESP8266，原生HomeKit红外空调遥控，支持数十种空调遥控协议。
+主芯片为ESP8266，原生HomeKit红外电视遥控，支持市面上大多数遥控协议。
 
-
-目前仍在开发中，部分功能以后可能会有改动。
 
 
 ## 主要功能
 
 - 原生HomeKit协议，无需服务器桥接，基于Mixiaoxiao的[Arduino-HomeKit-ESP8266](https://github.com/Mixiaoxiao/Arduino-HomeKit-ESP8266), 更新适配家庭新框架，适配iOS17
-- 支持控制空调的开关、模式、温度、风速、扫风、灯光等等
-- 支持数十种空调遥控协议，红外控制基于[IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266)，更新最新版本
-- 本固件支持多种esp8266红外控制器，例如：中国移动x12 全橙空调伴侣 涂鸦万能遥控器 自制esp8266红外控制器 等等，其中 中国移动x12 和 全橙空调伴侣 支持电量统计，并支持功率反馈空调真实开关情况，确保万无一失
-- 支持mqtt自动发现及手动配置，可以在web页面下载配置文件
+- 支持控制电视的开关、输入源、音量、方向、菜单、设置等等
+- 支持市面上大多数遥控协议，红外控制基于[IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266)，更新最新版本
+- 本固件支持多种esp8266红外控制器，例如：中国移动x12 全橙空调伴侣 涂鸦万能遥控器 自制esp8266红外控制器 等等，其中 中国移动x12 和 全橙空调伴侣 支持电量统计，并支持功率反馈电视真实开关情况，确保万无一失
+- 支持mqtt，预留接收和发射红外码的主题，方便使用第三方平台（homeassistant homebridge node-red）控制
 
 
 ## WiFi配网
