@@ -29,10 +29,10 @@
 
 注：`<esp_ip>`为你的ESP8266联网后的IP地址，下同
 
-![web.png](https://github.com/hassbian-ABC/esp8266-ir-homekit-mqtt/blob/master/image/web.png) 
+![web.png](https://github.com/hassbian-ABC/esp8266-ir-tv-homekit/blob/main/image/web.png)
 
 - 设置空调协议Protocol、子型号Model，**需设置与实体遥控器匹配的空调协议和子型号** 可使用自动是被模式进行识别
-- 控制空调的开关Power、模式Mode、温度Temperature、风速Fan Speed、扫风Swing（垂直V/水平H）、灯光Light
+- 控制空调的开关Powe、模式Mode、温度Temperature、风速Fan Speed、扫风Swing（垂直V/水平H）、灯光Light
 
 
 ## HomeKit家庭添加配件
