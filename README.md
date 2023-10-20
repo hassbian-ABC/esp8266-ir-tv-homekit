@@ -39,3 +39,4 @@
 
 - 配对设置代码：根据MAC地址计算，同时作为Homekit功能和mqtt功能的激活码
 - 获取激活码请加qq群：874918228， 注明github
+![qq](https://github.com/hassbian-ABC/esp8266-ir-tv-homekit/blob/main/image/qq.png)
